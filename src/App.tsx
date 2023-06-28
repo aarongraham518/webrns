@@ -16,6 +16,12 @@ function App() {
         paragraph={'Medicenter provides you a working online booking service. Just select department, pick your desired date and specify time slot.'} 
         buttonText={'READ MORE'}
       />
+      <BannerCard 
+        heading={"Opening Hours"} 
+        backgroundColor={'midBlue'}         
+        paragraph={'Medicenter provides you a working online booking service. Just select department, pick your desired date and specify time slot.'} 
+        buttonText={'READ MORE'}
+      />
     </div>
   );
 }
