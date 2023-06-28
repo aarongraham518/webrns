@@ -3,8 +3,6 @@ import { BannerCard } from './components/BannerCard/BannerCard';
 
 function App() {
   return (
-    // ${styles.bannerWrapper}
-    // styles[`${props.backgroundColor}`]
     <div className="App">
       <BannerCard 
         heading={"Online Booking"} 

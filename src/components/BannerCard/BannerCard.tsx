@@ -4,7 +4,7 @@ type BannerCardProps = {
     heading: string,
     paragraph: string,
     buttonText?: string,
-    backgroundColor?: string,
+    backgroundColor: string,
     messageCount?: number,
     isLoggedIn?: boolean
 }
