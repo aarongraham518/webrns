@@ -1,0 +1,38 @@
+.NewsCardWrapper{
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+    border-bottom: 1px solid #b5b5b5;
+    padding: 0 0 30px 0;
+    margin: 0 25px 0 0;
+}
+.date{
+    background-color: #3156a3;
+    color: white;
+    display: inline-block;
+    padding: 10px 12px;
+    margin: 0 0 40px 0;
+}
+
+.imageContainer{
+    /* width: 500px; */
+}
+    
+.newsImage{
+    width: 100%;
+    height: auto;
+}
+
+.NewHeading{
+    color: #535353;
+}
+
+.NewsText{
+    color: #535353;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.authorCatContainer{
+    margin: 40px 0 0 0;
+}

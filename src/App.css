@@ -1,3 +1,9 @@
+.BannerCardContainer {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
 .App {
   text-align: center;
 }

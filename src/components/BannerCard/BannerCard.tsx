@@ -18,6 +18,13 @@ export const BannerCard = (props: BannerCardProps) => {
                 <button className={styles.buttonSpec}>{props.buttonText}</button>
             </div>
         </div>
-
     )
 }
+
+//example usage
+{/* <BannerCard
+    heading={"Online Booking"}
+    backgroundColor={'lightBlue'}
+    paragraph={'Medicenter provides you a working online booking service. Just select department, pick your desired date and specify time slot.'}
+    buttonText={'READ MORE'}
+/> */}
