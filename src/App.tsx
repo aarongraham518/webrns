@@ -4,6 +4,9 @@ import { NewsCard } from './components/NewsCard/NewsCard';
 import billsImage from '../src/assets/images/bills.jpg';
 import xraysImage from '../src/assets/images/xrays.jpg';
 import medImage from '../src/assets/images/medtest.jpg';
+import doc1 from '../src/assets/images/doc1.png';
+
+import { TeamCard } from './components/TeamCard/TeamCard';
 
 function App() {
   return (
@@ -67,6 +70,9 @@ function App() {
           category={'GENERAL HEALTH'}
         />
       </div>
+      <div className='innerWrapper'>
+        <TeamCard image={doc1} name={'Maria Jones, RN'} title={}/>
+      </div> 
 
     </div>
   );
