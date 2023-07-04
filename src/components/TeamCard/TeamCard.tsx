@@ -8,10 +8,11 @@ type TeamProps = {
 export const TeamCard = (props: TeamProps) => {
 
     return (
-        <div>
-            <img src=""/>
-            <div className='nameTitleContainer'>
-                fdasfdas
+        <div className={styles.teamCardWrapper}>
+            <img src={props.image} className={styles.imageSpec}/>
+            <div className={styles.nameTitleContainer}>
+                <span className={styles.name}>{props.name}</span>
+                <span className={styles.title}>{props.title}</span>
             </div>
         </div>
     )

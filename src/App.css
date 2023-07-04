@@ -15,6 +15,16 @@
   justify-content: center;
 }
 
+.teamWrapper{
+  width: 1280px;
+  margin: 30px auto 50px auto;
+}
+
+.teamInnerWrapper{
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
