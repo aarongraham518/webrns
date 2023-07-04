@@ -9,8 +9,8 @@ export const BottomLine = () => {
             </div>
 
             <div>
-            <button> &lt; </button>
-                <button> &gt; </button>
+                <button className={styles.teamButtons}> &lt; </button>
+                <button className={styles.teamButtons}> &gt; </button>
             </div>
         </div>
     )
