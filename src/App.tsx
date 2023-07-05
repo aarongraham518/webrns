@@ -82,24 +82,28 @@ function App() {
             image={doc1}
             name={'Maria Jones'}
             title={'Nurse'}
+            
           />
 
           <TeamCard
             image={doc2}
             name={'Adel Brown'}
             title={'Pediatric'}
+            backgroundColor={true}
           />
 
           <TeamCard
             image={doc3}
             name={'Kim Yodor'}
             title={'Travel Nurse'}
+            backgroundColor={true}
           />
 
           <TeamCard
             image={doc4}
             name={'Maria Jones'}
             title={'Nurse Practitioner'}
+            backgroundColor={true}
           />
         </div>
       </div>
