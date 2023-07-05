@@ -1,0 +1,41 @@
+.container{
+    /* max-width: 1280px; */
+    width: 100%;
+    height: 130px;
+    background-color: #ebebeb;
+    margin: 0 auto 20px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px 20px 40px;
+    box-sizing: border-box;
+}
+
+.mainText{
+    font-size: 24px;
+}
+
+.mainTextNumber{
+    color: #3156a3;
+    margin: 0;
+    padding: 0;
+}
+
+.subText{
+    margin: 0;
+    padding: 0;
+}
+
+.consultationButton{
+    border: none;
+    background-color: #3156a3;
+    color: white;
+    font-weight: 600;
+    height: 50px;
+    padding: 5px 15px;
+    margin: 35px 0 0 0;
+}
+
+.consultationButton:hover{
+    background-color: #42b3e5;
+    cursor: pointer;
+}

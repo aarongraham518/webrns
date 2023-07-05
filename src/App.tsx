@@ -11,6 +11,7 @@ import doc4 from '../src/assets/images/doc4.png';
 
 import { TeamCard } from './components/TeamCard/TeamCard';
 import { BottomLine } from './components/BottomLine/BottomLine';
+import { Consultation } from './components/Consultation/Consultation';
 
 function App() {
   return (
@@ -107,6 +108,11 @@ function App() {
           />
         </div>
       </div>
+
+      <div className="consultationContainer">
+        <Consultation />
+      </div>
+   
 
     </div>
   );

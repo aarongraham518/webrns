@@ -6,7 +6,9 @@
 }
 
 .App {
-  /* text-align: center; */
+  border: 1px solid black;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .innerWrapper{
@@ -21,9 +23,14 @@
 }
 
 .teamInnerWrapper{
-  /* border: 2px solid blue; */
+  /* border: 1px solid blue; */
+  /* max-width: 1250px; */
+  width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.consultationContainer{
 }
 .App-logo {
   height: 40vmin;
