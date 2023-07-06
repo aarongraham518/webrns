@@ -1,0 +1,43 @@
+.container{
+    max-width: 1200px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    color: black;
+    /* border: 11px solid red; */
+    font-weight: bold;
+    font-size: 3em;
+    width: 18%;
+    height: auto;
+    float: left;
+}
+
+.italic_me{
+    font-style: italic;
+    color: #4db1e2;
+    cursor: pointer;
+    display: inline;
+    font-size: 48px;
+}
+.navUl{
+    /* border: 1px solid red; */
+    display: inline-block;
+}
+
+.navUl li{
+    display: inline-block;
+    margin: 0 10px 0 0;
+    /* background-color: #42b3e5; */
+    color: grey;
+    font-weight: 500;
+    padding: 10px 15px;
+}
+
+.navUl li:hover{
+    background-color: #42b3e5;
+    color: white;
+}

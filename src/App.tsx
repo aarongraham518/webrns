@@ -12,11 +12,14 @@ import doc4 from '../src/assets/images/doc4.png';
 import { TeamCard } from './components/TeamCard/TeamCard';
 import { BottomLine } from './components/BottomLine/BottomLine';
 import { Consultation } from './components/Consultation/Consultation';
+import { Navigation } from './components/Navigation/Navigation';
 
 function App() {
   return (
     <>
-      <div className="BannerCardContainer">
+    <Navigation />
+    
+      <div className="BannerCardContainer">  
         <BannerCard
           heading={"Online Booking"}
           backgroundColor={'lightBlue'}
