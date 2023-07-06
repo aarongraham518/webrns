@@ -15,106 +15,114 @@ import { Consultation } from './components/Consultation/Consultation';
 
 function App() {
   return (
-    <div className="App">
-      <div className="innerWrapper">
-        <div className="BannerCardContainer">
-          <BannerCard
-            heading={"Online Booking"}
-            backgroundColor={'lightBlue'}
-            paragraph={'Medicenter provides you a working online booking service. Just select department, pick your desired date and specify time slot.'}
-            buttonText={'READ MORE'}
-          />
-          <BannerCard
-            heading={"Doctors Timetable"}
-            backgroundColor={'midBlue'}
-            paragraph={'Medicenter provides you a working online booking service. Just select department, pick your desired date and specify time slot.'}
-            buttonText={'READ MORE'}
-          />
-          <BannerCard
-            heading={"Opening Hours"}
-            backgroundColor={'darkBlue'}
-            paragraph={'Medicenter provides you a working online booking service. Just select department, pick your desired date and specify time slot.'}
-            buttonText={'READ MORE'}
-          />
-        </div>
-      </div>
-      <div className="innerWrapper">
-        <NewsCard
-          date={'JUL 2, 2023'}
-          image={billsImage}
-          heading={'New Study Links Bills To Stress'}
-          paragraph='Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Optio, omnis tenetur 
-                vero enim est facere porro eius quae. 
-                Repudiandae, enim.'
-          author={'BETTY SMITH'}
-          category={'GENERAL HEALTH'}
+    <>
+      <div className="BannerCardContainer">
+        <BannerCard
+          heading={"Online Booking"}
+          backgroundColor={'lightBlue'}
+          paragraph={'Medicenter provides you a working online booking service. Just select department, pick your desired date and specify time slot.'}
+          buttonText={'READ MORE'}
         />
-
-        <NewsCard
-          date={'JUL 7, 2023'}
-          image={xraysImage}
-          heading={'What Does The Doc Really See?'}
-          paragraph='Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Optio, omnis tenetur 
-                vero enim est facere porro eius quae. 
-                Repudiandae, enim.'
-          author={'CRAIG JOHNSON'}
-          category={'GENERAL HEALTH'}
+        <BannerCard
+          heading={"Doctors Timetable"}
+          backgroundColor={'midBlue'}
+          paragraph={'Medicenter provides you a working online booking service. Just select department, pick your desired date and specify time slot.'}
+          buttonText={'READ MORE'}
         />
-
-        <NewsCard
-          date={'JUL 9, 2023'}
-          image={medImage}
-          heading={'Precision Is The Key'}
-          paragraph='Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Optio, omnis tenetur 
-                vero enim est facere porro eius quae. 
-                Repudiandae, enim.'
-          author={'YANA WONG'}
-          category={'GENERAL HEALTH'}
+        <BannerCard
+          heading={"Opening Hours"}
+          backgroundColor={'darkBlue'}
+          paragraph={'Medicenter provides you a working online booking service. Just select department, pick your desired date and specify time slot.'}
+          buttonText={'READ MORE'}
         />
       </div>
-      <div className='teamWrapper'>
-       <BottomLine />
-        
-        <div className="teamInnerWrapper">
-          <TeamCard
-            image={doc1}
-            name={'Maria Jones'}
-            title={'Nurse'}
-            
+
+      <div className="meetTheTeamContainer">
+      {/* <BottomLine /> */}
+        <div className="innerWrapper2">
+          
+          <NewsCard
+            date={'JUL 2, 2023'}
+            image={billsImage}
+            heading={'New Study Links Bills To Stress'}
+            paragraph='Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Optio, omnis tenetur 
+                vero enim est facere porro eius quae. 
+                Repudiandae, enim.'
+            author={'BETTY SMITH'}
+            category={'GENERAL HEALTH'}
           />
 
-          <TeamCard
-            image={doc2}
-            name={'Adel Brown'}
-            title={'Pediatric'}
-            backgroundColor={true}
+          <NewsCard
+            date={'JUL 7, 2023'}
+            image={xraysImage}
+            heading={'What Does The Doc Really See?'}
+            paragraph='Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Optio, omnis tenetur 
+                vero enim est facere porro eius quae. 
+                Repudiandae, enim.'
+            author={'CRAIG JOHNSON'}
+            category={'GENERAL HEALTH'}
           />
 
-          <TeamCard
-            image={doc3}
-            name={'Kim Yodor'}
-            title={'Travel Nurse'}
-            backgroundColor={true}
-          />
-
-          <TeamCard
-            image={doc4}
-            name={'Maria Jones'}
-            title={'Nurse Practitioner'}
-            backgroundColor={true}
+          <NewsCard
+            date={'JUL 9, 2023'}
+            image={medImage}
+            heading={'Precision Is The Key'}
+            paragraph='Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Optio, omnis tenetur 
+                vero enim est facere porro eius quae. 
+                Repudiandae, enim.'
+            author={'YANA WONG'}
+            category={'GENERAL HEALTH'}
           />
         </div>
       </div>
 
-      <div className="consultationContainer">
-        <Consultation />
-      </div>
-   
+      <div className="App">
+        <div className="innerAppWrapper">
 
-    </div>
+          <div className='teamWrapper'>
+            <BottomLine />
+
+            <div className="teamInnerWrapper">
+              <TeamCard
+                image={doc1}
+                name={'Maria Jones'}
+                title={'Nurse'}
+
+              />
+
+              <TeamCard
+                image={doc2}
+                name={'Adel Brown'}
+                title={'Pediatric'}
+                backgroundColor={true}
+              />
+
+              <TeamCard
+                image={doc3}
+                name={'Kim Yodor'}
+                title={'Travel Nurse'}
+                backgroundColor={true}
+              />
+
+              <TeamCard
+                image={doc4}
+                name={'Maria Jones'}
+                title={'Nurse Practitioner'}
+                backgroundColor={true}
+              />
+            </div>
+          </div>
+
+          <div className="consultationContainer">
+            <Consultation />
+          </div>
+
+        </div>
+      </div>
+    </>
   );
 }
 
